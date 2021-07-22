@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <p>
+          <label for="new-task">Add Item</label><input id="new-task" type="text"><button onclick="sendData('https://chat-app2-b59ab.firebaseio.com/todo.json?print=pretty')">Add</button>
+        </p>
+        
+        <h3>Todo</h3>
+        <ul id="incomplete-tasks">
+
+        </ul>
+
+  
+   <script src="./index.js"></script>
+   <script src="/main.js"></script>
+</body>
+</html>
